@@ -4,6 +4,8 @@ using PlayingCardsLibrary.Interfaces;
 
 
 Deck deck = new Deck();
+Hand hand = new Hand();
+
 
 deck.InitializeStandardDeck();
 
@@ -44,6 +46,5 @@ for(int i = 0; i < 5; i++)
     Console.WriteLine($"Value: {atts[0]}, Suit: {atts[1]}");
     Console.WriteLine();
 }
-
 
 Console.ReadKey(true);
