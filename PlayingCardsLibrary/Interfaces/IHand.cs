@@ -9,6 +9,6 @@ namespace PlayingCardsLibrary.Interfaces
     public interface IHand
     {
         public List<ICard> Contents { get; set; }
-        public int[] Analyze();
+        public int[] Analyze(List<ICard> cards);
     }
 }
